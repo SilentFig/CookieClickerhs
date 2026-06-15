@@ -1,0 +1,248 @@
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSarray-0.5.4.0-ghc9.4.8.so:
+  hash: 68da998fcfd05e871d4b47bd4a85e5522f36cbc1f159303c068e4cfedee7bb55
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSbase-4.17.2.1-ghc9.4.8.so:
+  hash: df51f6f5fce291cdf3446786a5ba801316aab5462b32fe978bcaedaa77a24b0a
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSbinary-0.8.9.1-ghc9.4.8.so:
+  hash: 6ee0dc84a328fe8e57cf17644063185282f9828f4707840dc5b4132deb289ef6
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSbytestring-0.11.5.3-ghc9.4.8.so:
+  hash: d7ee213f7d7564a03b05199a789ffc107fc2af5c8e0b1d751ed1fbe843ecebd8
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHScontainers-0.6.7-ghc9.4.8.so:
+  hash: 4086ecc31f8b052e5b31a05c4b322401d903f5d1b342ccde8107faa14783a35f
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSdeepseq-1.4.8.0-ghc9.4.8.so:
+  hash: c9f4ddae0d0a426df97f556ee6f222e8b066ea5433260f45a5a113ef71773bc4
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSdirectory-1.3.7.1-ghc9.4.8.so:
+  hash: 90c2475ab8ea775990eab9659d7e7127b7622630ce5753512133511814ea3303
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSexceptions-0.10.5-ghc9.4.8.so:
+  hash: 418d6c122234da00b7982cf890b57577d58463685f4252d73918715353097c1b
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSfilepath-1.4.2.2-ghc9.4.8.so:
+  hash: 5ab30d630f5249935e4b8a819c7f08e3331d116524d7a6c6846e56569b4a6432
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSghc-bignum-1.3-ghc9.4.8.so:
+  hash: 58a1c9e74e4d259b16ceb83314cfbf3c3792a6d240ad60c187ac3cb249606580
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSghc-boot-th-9.4.8-ghc9.4.8.so:
+  hash: f0f32f75bdc93cc9d825152c5399f7ee32162ef1ab093017841fd6ca100a936c
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSghc-prim-0.9.1-ghc9.4.8.so:
+  hash: 027ba5dfff50c543bb9a3ec40c252e8ec47e3f6641adcb9984f9292a516926e5
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSmtl-2.2.2-ghc9.4.8.so:
+  hash: 2c728813c3ffad3721f3b657fca35f8a5bb0867df3a93b6c7a748ed14408e024
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSpretty-1.1.3.6-ghc9.4.8.so:
+  hash: 9fa17682390c1a46d1619da28c2ff3c14439a158f4946c9b8fff68d18109da3a
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSprocess-1.6.18.0-ghc9.4.8.so:
+  hash: 59f9068c7d3d9c4d162c6e0bf0c22befa516da18a55ea11df1532e3a1a0f9c36
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSstm-2.5.1.0-ghc9.4.8.so:
+  hash: 9c5cea67ee9c8194f53661cb50ca0aee00e1bcae9b035dee56450cf4a6748a4f
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHStemplate-haskell-2.19.0.0-ghc9.4.8.so:
+  hash: 29ec4a7a6f381ed72aa236dfa59f7d79a971b8d3b6ecf342eb1c77a21f777cf6
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHStext-2.0.2-ghc9.4.8.so:
+  hash: 9e23e4d2a712245e1fc1f53810fca0e57a23abfd7a3be1ffe9d8ca63e9490f28
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHStime-1.12.2-ghc9.4.8.so:
+  hash: 50277971953e4d4dba31bae2078e25334cdd0763495d0d50fb7897c912f25637
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHStransformers-0.5.6.2-ghc9.4.8.so:
+  hash: 8b654a07e71965b2951c4931f43784b96efc15409b0b9310c64f42367f425bff
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSunix-2.7.3-ghc9.4.8.so:
+  hash: a91a830ea1ad3a6bb35263918ea0b96a99621d539dfe9f284f92fe0ed6b7bde8
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/rts-1.0.2/include/ghcversion.h:
+  hash: 4bc88722407a89d1efbfa9c116cd4017af6ea3ff746643032b96cef62782f5dd
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSOneTuple-0.4.1.1-Ft09b59sqBL7CkJH7Fth7D-ghc9.4.8.so
+: hash: ddf46b9a50ca54eaa1b91510a56b1d20b6213505c74cdd28c662bf9a9f8953ac
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSQuickCheck-2.14.3-43t8QKFUdu3KdBTU6hmsrT-ghc9.4.8.so
+: hash: 42d65887b7261c016c86659e2af60cc653491049442b65650df899212bd6d40e
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSStateVar-1.2.2-2qg6a9t7WOj8KHyna31Hkh-ghc9.4.8.so
+: hash: f586a98a8330d4bdbda776828c9f9fbf4ceb0bd239eac2a85960ea1aa19a464d
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSaeson-2.1.2.1-JbCTFV6Xk1ECJSbwVZEkyY-ghc9.4.8.so
+: hash: 5756036e79e75902fcad208546eb26fc2224f050a731e1214de5c1d7a59dace6
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSassoc-1.1-A3yJXLmq1JhHesZ9h01BRJ-ghc9.4.8.so
+: hash: 0fc12a44de3753761db4bb3203c2532fce626569d70b37b72e8d5eb90b0fc092
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSasync-2.2.5-DT6ThxfHpXv6xHLTSHS1ly-ghc9.4.8.so
+: hash: 169905f8b503bae76fda2b887cdec0c4bb3d506397e8c7bbbabb53093bfe0ccf
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSattoparsec-0.14.4-KcydESnV0l7HwzocYW0e6H-attoparsec-internal-ghc9.4.8.so
+: hash: d983ccf3f6f8fc09aec8100b068c1f6f74700aa281ac5b62f58b192545492b7d
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSattoparsec-0.14.4-KzPot0VjP04BnFI7xAZzZF-ghc9.4.8.so
+: hash: 6be7d1669ac5e568e4666ad5cf892c3541940df35f3b25b6b3f81692c7b232c4
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSattoparsec-iso8601-1.1.0.0-2waLhhnzfGB5Y4fC84CLfj-ghc9.4.8.so
+: hash: 5ebfa15d71ad828947952d5a9ba32490643a8e23eeb4f2886ce16e27ef92eeb9
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSauto-update-0.1.6-KCqYHUHT7snBsHax1DeFhH-ghc9.4.8.so
+: hash: b67925795ee81784c7f4ca502ff1e4123bb9be26d6a6cc731826fdd266902ad6
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSbase-compat-0.12.3-H9qTMlLoDHsHlMi1O3x7Rp-ghc9.4.8.so
+: hash: 142ac3e4c7d2e48827811ee3ba534866232f3499e6e519b0f9706453f01f662b
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSbase-compat-batteries-0.12.3-JvrR1Efy9uXIS1bN32ND0g-ghc9.4.8.so
+: hash: 7587d01dad1c9e07b1af441c4074dc06eb321ba0f45903df3ea374d38784be05
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSbase-orphans-0.9.1-6cbIjli0Gs61y7hLOMgZoR-ghc9.4.8.so
+: hash: 9e09dfbce66bddf275b2ccf3f073864b5d79f616eb5c39946f5726f09fac2a6f
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSbase64-bytestring-1.2.1.0-2ch94mfZqaxJVNwAplpfG-ghc9.4.8.so
+: hash: 11b82241482df2f39a162721fd3d89642d1d7015c6a6ea3b8bd0b34047223491
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSbifunctors-5.5.15-Gc5CsWcm6K9DkRwauN7uQ3-ghc9.4.8.so
+: hash: 60c2f60167bac30d311ff4136fa1dabb10957b0499a47fb34c8f48b4903c4063
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSbitvec-1.1.5.0-B7nyEoOgLmhG4RCI63aAnT-ghc9.4.8.so
+: hash: 3e3c80106e1ca4ef63b2e7600ee78ae3660e11f994dfe850a1d0d32197a6988e
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSblaze-builder-0.4.2.3-1WUo1omsOYUH2PSkelI6MS-ghc9.4.8.so
+: hash: 544679155af5dbf8ce16cf7202553665c1fb9685976c9c2cb668a10b4f2df85d
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSblaze-html-0.9.1.2-CumPbYJz5I1F01n0ZhqMi1-ghc9.4.8.so
+: hash: 75311f961f27ade9165db429dc01e854c64dea7217a2580680db421dcc1e774a
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSblaze-markup-0.8.3.0-13RCi4hQNbT4eSuQcUCeAq-ghc9.4.8.so
+: hash: 591a2c677f85b710ce0dad94cff226e6bfb7bac3893805d3756c31e3eb448010
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHScase-insensitive-1.2.1.0-7KQqNC51aPCEHzkQhk97ZL-ghc9.4.8.so
+: hash: 65a5705d517aa712db1ad8f1ef6bcc263678e39be649804d5b6583514748b705
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHScomonad-5.0.8-C4FycctjcnJKawTJ7RiFTc-ghc9.4.8.so
+: hash: ebc2f9ca3f60398a263f70d92240a8f0b4a8df42bec5291ebb7f285c544bdfca
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSconduit-1.3.5-HQpECa4IVGlFvitcrKh2vb-ghc9.4.8.so
+: hash: 1f3c050ff6a7332de8f76039e7660ab773e5d24f2462cd9fa3f610ac273149c7
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSconduit-extra-1.3.6-2cX89ve5RPmFMhzjegmNX2-ghc9.4.8.so
+: hash: 54079a0780e6a7dceed24e44506e3a74d73264738e6731c515bde783436c4ca5
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHScontravariant-1.5.5-BJd0toS73xAGjdK72tTY8g-ghc9.4.8.so
+: hash: 69b95ba226f3d078b48d00a1e04629291299b6f17f13ebd72c0d5d9c2a925c5d
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHScookie-0.4.6-F1zrbTi2xBKITbMaXEMJU7-ghc9.4.8.so
+: hash: f8ce30a4575f6f4790ffab9a44c043c6420d7a1976de6ce3c04125a2b4979c04
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSdata-default-class-0.1.2.0-EM2WINJ7sgcEz896Wt8QcU-ghc9.4.8.so
+: hash: 4154acf1194a77bce530619eca0b1b7a79cf1f5c4dff29f287a2927804694b6f
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSdata-fix-0.3.2-5XCayQSDj0J2wA5NUu03il-ghc9.4.8.so
+: hash: 07309cf35620408eeede5567935b4e63dac9bc0deb044ef77fb64683364a4e1c
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSdistributive-0.6.2.1-8BLKn5GYSiTAloSrO5W4fW-ghc9.4.8.so
+: hash: 87da08ca622dc5c0b8cda023f307853c19f14d3628a17f6ed0bcb124c70c25bf
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSdlist-1.0-8nCROV7nHWV1xhhm1tDv9W-ghc9.4.8.so
+: hash: 809496b22e294dbbe7e228c97622e7acc0e838e53914ca71d619ccd431757416
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSeasy-file-0.2.5-L2seLCZTQnL6s31PObvE6z-ghc9.4.8.so
+: hash: 9a5b0db42d76f2008154cca6667ece431198b7e8a741f82cb1614eb56371e8a6
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSfast-logger-3.2.2-Lu36f0NZ6THHKUccri86wZ-ghc9.4.8.so
+: hash: 184320407f2bba1ae22012f05553415d4b2e75026c32ba4eb38712204a678c2c
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSfoldable1-classes-compat-0.1-5PlALyy1UDwBd0oAhG8mf7-ghc9.4.8.so
+: hash: 11c04a8b0edc07e19efa1c319ab23e4d3d22ac1b00e73387b80dc178df90e90e
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSgenerically-0.1.1-EC0CvqoebyEENx2CTpSJZ4-ghc9.4.8.so
+: hash: bf6a577cf92eb6e73c7a56002ec16c63dfaef5330a54f2eff2c12d3a75573ff2
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHShashable-1.4.3.0-GvGhQqvO1rP8x6Vr3H2mge-ghc9.4.8.so
+: hash: a319ed9f5e92aa3fb44afcd1dcaf4f4a60ff3c73b0ae241173e58d77faf8eb19
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHShttp-api-data-0.5-68gjQcUBFZGBG3iY6H3U8Z-ghc9.4.8.so
+: hash: defa22b6be618a72d2fd177053747f150c5ae5eedca79a598e8830c49169fd66
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHShttp-types-0.12.4-Cfm4yRPRlyrAemJjZB5LMT-ghc9.4.8.so
+: hash: 88f414d5b0384b4930c3744de2fd7157bd3e8e01165b52a6c2c4c9e562e4b413
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSindexed-traversable-0.1.3-ILl90zZaHoy3UbxtKYa8Gv-ghc9.4.8.so
+: hash: 7a373fd4e79a60dfb52afcd2cb18ee3ba5ca623ae3785aa411a344daaa28008b
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSindexed-traversable-instances-0.1.1.2-GocFPxXwn9x2JarPZaKVfH-ghc9.4.8.so
+: hash: 5b9e268d75695cf7edab541d842e01640f77009d116d1d59f5bb52f2f02ebfbf
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSinteger-logarithms-1.0.3.1-JfoQIJXh5PhDnmGGlkJE4T-ghc9.4.8.so
+: hash: 37ae4a63ff17a4b728da67f67b67480629524646eb18ccbc141e4fa75b6b96f4
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSlift-type-0.1.1.1-AD2KAFhZCuO7R1ehTQUqEo-ghc9.4.8.so
+: hash: f31fdd54167429d9ef3f5f9d2b5e6f71f6928ff10393af7b3860ab60f35369db
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSlifted-base-0.2.3.12-5uP3yGoOlbUF2Z7PGmMITO-ghc9.4.8.so
+: hash: d141a964daa024c84338a68d114a13f5ce2e7c9dd19773992eea406356d0ec30
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSmonad-control-1.0.3.1-9CKge2ltrvlFVe6I3C4XG7-ghc9.4.8.so
+: hash: d16567c56f913b4f5e0de85314240e0fc418a9857bd086d2c381084b73758a41
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSmonad-logger-0.3.40-11IFxmYDYfhEPtk8dDWF5k-ghc9.4.8.so
+: hash: a53cb9579451adac55df54f905d9cdada17322c87e389f93f21e7c64559ce89f
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSmonad-loops-0.4.3-KaRiS5mJjkQ1zBkxxbNC2Z-ghc9.4.8.so
+: hash: 506e496c814a358704ca2031bc5b59f5fffe6f0804f8dd73a659b4bb04fcf239
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSmono-traversable-1.0.15.3-2sTfOQaOne9BVsp4WkG1tP-ghc9.4.8.so
+: hash: e8a3f5d9c1591e458d8c8df9785b5b1abee195eb8df3e4488fe25bd044ae653a
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSnetwork-3.1.4.0-FYxkyLMsde4J1XyPxAbqch-ghc9.4.8.so
+: hash: 22b1bafcf35f0c86efa382302fa41d770b2644adb093823d55dff9adce5baedd
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSold-locale-1.0.0.7-KCPcWVOQKME2P4y4gxzvhh-ghc9.4.8.so
+: hash: 797847fafda1954362898f9ffb6160d2625d43493a96f2f0bbfd85d2fa83903f
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSold-time-1.1.0.4-JCK1cuUA8uoGpLymN8cquI-ghc9.4.8.so
+: hash: e0e7cc070178d5158d05962608b81710fe029b6577767543d2bcfb7fe97bc035
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSpath-pieces-0.2.1-3XB1w9Pq9G55ySSfgWLsAv-ghc9.4.8.so
+: hash: fbe57f63b8b359489ee58da226250c3fc44381b55afff3b8312fcd0ef9989acc
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSpersistent-2.14.6.0-G7B8R4Ee7mnKNa95umVrer-ghc9.4.8.so
+: hash: 71274f5b97b7f9d4846d7532852e31f6ba602e0a7cf4a8730c3da1a7dee8645d
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSprimitive-0.8.0.0-DOq08qccxJQDiY3mViZQFk-ghc9.4.8.so
+: hash: 770c986ffef207ce952c53c2b18724239f449323cb10ceafe9ddaaa5d151b226
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSrandom-1.2.1.1-5A411GLqDA5B9LXzgGkW7g-ghc9.4.8.so
+: hash: 94d6508200f4641e2dc1bd21edd6ea8a470b03db553a9db4840d49ada253d3bd
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSresource-pool-0.4.0.0-9zakyHvrNL74p9uirMwbN-ghc9.4.8.so
+: hash: 786b3dcdec79c6e110f1328e058dd5fb8a4485d7e6a315a4ea23dee9b5f8fa33
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSresourcet-1.2.6-LMHGEaUPtXoKysRsVM3rZR-ghc9.4.8.so
+: hash: 567ee1e8521f9baf894d96f3c04cdc1bd331f8b37479cf12c41950c0b0babeea
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSsafe-exceptions-0.1.7.4-1geoqNZA39lJ96Kmo3mgOr-ghc9.4.8.so
+: hash: 77cc7dff4a439bf2e34aaefa07bfc604dc2a201e7eda23cb5e40fe8ad2f0d70d
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSscientific-0.3.7.0-19vKyxrwMwh8w5fBThW01-ghc9.4.8.so
+: hash: 72becf9f6df84fa4b69e611aa45f4d864fe130ca8aa9288419e3a35a7be1fdf3
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSsemialign-1.3-DTx4q1HWT6q5qQBO4MzKRu-ghc9.4.8.so
+: hash: 233b59b5c1e0130f475f8c3f14111e99f3aeac23b9283bef207b55bf6d731045
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSsemigroupoids-5.3.7-97kJKREsV2MAGpVqgiDsbH-ghc9.4.8.so
+: hash: a7cb6515bf269c5e68dff85af0a02dbd7a13e216546de19ac72179790a757cba
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSsilently-1.2.5.3-JzkkebKTF6SKqSkGP6kv7i-ghc9.4.8.so
+: hash: 7900b5f8ea320cd59576da55ec6af4fb4242c5685fde1f43d97fbf2486094a9a
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSsplit-0.2.3.5-1k7kelDWehCGM6Xo0rLs33-ghc9.4.8.so
+: hash: d208b23a459a69a12318a62794b24cd237d4904424f7b8f2ed08a1c339c98174
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSsplitmix-0.1.0.5-7l6HL2Ks2U1EQtiqxLd141-ghc9.4.8.so
+: hash: e9bfbc18f69a9103c53bfbfdd13463f1c9e873371ebefd0bcf89fa0e5e6f0305
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSstm-chans-3.0.0.9-CQu29so2bvC6Kzm6cIERmj-ghc9.4.8.so
+: hash: 8ff6e9f0e0d49bf406e88ea1535bb4d8684494cf01fd4e9e6ed718b619346387
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSstreaming-commons-0.2.2.6-9XGn4F1OKnj1QuwQPseCDs-ghc9.4.8.so
+: hash: e1e1e720de692cd5795be30a9a4d0f4bbc541c1ebcfa0762a12d034f3be5de80
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSstrict-0.5-8tiA70ce5yEAQ0cVCshA75-ghc9.4.8.so
+: hash: e85a7a1509c830c9bfb126b781383feeb344e56fbcd878c8dfd516470361344f
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHStagged-0.8.7-3L2gKv504KuFz0IZ1w44UO-ghc9.4.8.so
+: hash: bff787d042b273aa38d71117e2b5dd6ccf0d15b62dd811065799f448fa3a3ff6
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHStext-short-0.1.5-JJleVFA3mFHALgEzYZW5XT-ghc9.4.8.so
+: hash: e5bbe8dc7a9470cf4177982ad1bb5c1fb6901d048b1acceffe41b71e93012f17
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSth-abstraction-0.4.5.0-EtQVnbIEkAX5f6KN9Uwjhw-ghc9.4.8.so
+: hash: 17bb7506d492f6952c7208909cde9923e06ac6c3db2f2f0d309bbf614a29c8a3
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSth-lift-0.8.4-3Jqcte1pbUvKHGfrg0advG-ghc9.4.8.so
+: hash: c3386952fd1fbd5dec35180a5036117872e776a471f77197b9d3859e8b561522
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSth-lift-instances-0.1.20-FDoi5O9EGQ16kxPZYCjdFj-ghc9.4.8.so
+: hash: f7117eff3d289d40e07713efb77993929963cacfc426976accd33330d47bde25
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSthese-1.2-AxtBfiCwCSh8nR9xugRvlH-ghc9.4.8.so
+: hash: 1116c4b6ca674bb747703d3d69530259cd8bfb88793635cd26627a2bc18d3e62
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHStime-compat-1.9.6.1-FZ5m729BHzNAQV4RuwDTCk-ghc9.4.8.so
+: hash: f30a3f12f3e58145a5d75c84ca753d65bcdd40b213be1e85b97f9d4e2003ce02
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHStransformers-base-0.4.6-GDV2O0SzlvC6AKM8r7oLOJ-ghc9.4.8.so
+: hash: b958ed01cc7835f6097342b3711461a8b186abdbe9a08c4fec7c2afb4d5e5f0b
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHStransformers-compat-0.7.2-KXodIWmk1jv2pOcMXMgqIg-ghc9.4.8.so
+: hash: 79062eeb9e74b0a044c1114aae85003f66ebc1561588cc91058c1f9bfe458bb7
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHStyped-process-0.2.11.1-5GsEIlQ0POvDLn8IYcGh9U-ghc9.4.8.so
+: hash: 55872a73cc1f47f4d8a743b70605dad35f0dcee4ee48d40a2710c08b0cafe0ef
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSunix-compat-0.7.1-KpuulzEt4L7GrLq7NF378Z-ghc9.4.8.so
+: hash: 9bf84e528e4579556fb6e413174c7b585e9871f242a6e4a7c333706fd6ccb7ef
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSunix-time-0.4.11-KBuLKQTS13s4W6FoQ2kzlH-ghc9.4.8.so
+: hash: 7933c9e636ce8768357fa629f3b0413b8360ab2733f77a404a8c6b649ea32bf6
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSunliftio-0.2.25.0-9DuVhFzrvMSJQtjZIAH2E3-ghc9.4.8.so
+: hash: 02042e1f3bc45edddfd0b845a0555cf603744a6203766af9fcbcf69534498a4c
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSunliftio-core-0.2.1.0-1JwPsdkrVim6892Z5vBeIT-ghc9.4.8.so
+: hash: c0714d05b75f467a02a0ac42ddb03a69ab4a37b306c4e6d9b9f92119df7fbe65
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSunordered-containers-0.2.19.1-7zexW4powBKAoAfrLhHzJg-ghc9.4.8.so
+: hash: 0a70c1c5f19f160d1a0ef7b379d9f787cf86d31b276db3c10cd0d78c780323d8
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSuuid-types-1.0.5.1-86MubB8BZ3ED0BlDebU5o8-ghc9.4.8.so
+: hash: 25f86f3606d5f403437133c89dee24f23dcddb99c618661caa88d47cafcce84f
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSvault-0.3.1.5-JShOXxvrYTIC5sCMIVYWZX-ghc9.4.8.so
+: hash: fe3375fa5af85e6911ca6d56076b3b933c433ea60ada1df8a06c6e428470311b
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSvector-0.13.1.0-DaP9Gsy2yQ86blThQ6OwA6-ghc9.4.8.so
+: hash: 810e59a9cac697debe36559f28627b7abace4d3c5f152fd6ed2a96526682dac5
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSvector-algorithms-0.9.0.1-LQ9qMNsGdHNDFLdx4tWIhU-ghc9.4.8.so
+: hash: be19a8d76f115b45e178ed5c5223b5b5a9b4e799ef50096b16bf2b126d48ff2b
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSvector-stream-0.1.0.0-3lCfHZluihABooYlJXwfC1-ghc9.4.8.so
+: hash: 2bf96ab2dfad00d71a2c8d2910bc574881fcae5047c96cbb689d642ac17db40a
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSwitherable-0.4.2-AbvMcQaCRNmIq2b0u2fLqT-ghc9.4.8.so
+: hash: 2558a680e2af559124f987ff3f0a8c0cfaee846ceafb6e60ec84aac251d0692f
+? /home/silence/.stack/snapshots/x86_64-linux/9d4d2ef910ba59714903ca69cbce699963b32366e3324bf824e49e3a5eb21bd5/9.4.8/lib/x86_64-linux-ghc-9.4.8/libHSzlib-0.6.3.0-87zGwLouO6rD84o2R7aVrn-ghc9.4.8.so
+: hash: 5cc39cb0ba750ddb0d3433f210c7171270e556ed58c9a4b825ab64faa958f291
+/home/silence/Documents/CookieClicker/.stack-work/dist/x86_64-linux/ghc-9.4.8/build/autogen/Paths_cookie_clicker.hs:
+  hash: f78ef4cbf6e9b3efe85ca5fbb169d8a86a6215ad9d72b4cbbf3d46418c422c24
+/home/silence/Documents/CookieClicker/.stack-work/dist/x86_64-linux/ghc-9.4.8/build/autogen/cabal_macros.h:
+  hash: 0d54648d333891bc953601525cc32728bd384b6c241fc7002860ee0fe2b8283b
+/home/silence/Documents/CookieClicker/README.md:
+  hash: e8d9226e33a07765d5b18dc81f7524af443f82a756d70734b25f518160a949a2
+/home/silence/Documents/CookieClicker/cookie-clicker.cabal:
+  hash: 69826cccffbd18eac7a9fb5baab855787f67b8e6e2975534b45d9212a7535c26
+/home/silence/Documents/CookieClicker/package.yaml:
+  hash: 107da73ced3103441004d4c0ecdd8530da9ad49459c895061c4d67280030c0fc
+/home/silence/Documents/CookieClicker/src/API.hs:
+  hash: 37a42d9d45ebfe873cae0e5270a026700a8695e749b9ffe2f2b689ae18c06bbe
+/home/silence/Documents/CookieClicker/src/Bitmask.hs:
+  hash: 526174bc35355684da349d5cf3be46592e39743d7a659915fa31fece98d36e9c
+/home/silence/Documents/CookieClicker/src/Database.hs:
+  hash: ee71357537029d7d455287b77e7a2943ccbe38bd3f8e2240934e757d11b79ffc
+/home/silence/Documents/CookieClicker/src/GameLogic.hs:
+  hash: d73615fe938d537d6e4203ff8a56dd14da1775da58bb51edd073b122cddaba87
+/home/silence/Documents/CookieClicker/src/Handlers/GameHandler.hs:
+  hash: 1394f9d2d90374abd8b9678caf8d4d7a078ca1129f5f794f22f20e7c219a1d7f
+/home/silence/Documents/CookieClicker/src/Handlers/InventoryHandler.hs:
+  hash: 6a56bbc6c240ba923440503d0aaea9098e96c61107b1369babf7aaa9a51b33a9
+/home/silence/Documents/CookieClicker/src/Handlers/UpgradeHandler.hs:
+  hash: db24425a3c4446fe973aa15fa2c5ee6022efd2d90dc91f261b2f91bdb5f1ad82
+/home/silence/Documents/CookieClicker/src/Handlers/UserHandler.hs:
+  hash: 9557812509a1f02aeb747953b1fbea9c5105d89e64b6a053a187697b172bce33
+/home/silence/Documents/CookieClicker/src/Models.hs:
+  hash: 00d22876791b3483ce79a32761fe608b7e173c3979c50c9edafae4433eaf0990
+/home/silence/Documents/CookieClicker/src/Server.hs:
+  hash: c00cd559c354d07785204527b8b7d38090d1e474995429ce9e062976f22dac5b
+/usr/include/stdc-predef.h:
+  hash: 8db4f65e62cade8ae4d9b77960ee6aee093255acc1b637e3fb37d79179733b15

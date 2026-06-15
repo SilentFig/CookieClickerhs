@@ -1,0 +1,110 @@
+.inventory-container {
+  padding: 1.5rem;
+  border-top: 1px solid var(--panel-border);
+  background: rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  max-height: 40%;
+}
+
+.inventory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.inventory-header h3 {
+  font-size: 1.2rem;
+  font-family: 'Outfit', sans-serif;
+  color: #fff;
+}
+
+.equip-count {
+  font-size: 0.9rem;
+  background: rgba(251, 191, 36, 0.2);
+  color: #fbbf24;
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+  font-weight: 600;
+  border: 1px solid rgba(251, 191, 36, 0.4);
+}
+
+.empty-inventory {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.95rem;
+  padding: 2rem 1rem;
+}
+
+.inventory-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.inventory-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.inventory-card.equipped {
+  border-color: #4ade80;
+  background: rgba(74, 222, 128, 0.1);
+  box-shadow: 0 0 15px rgba(74, 222, 128, 0.1);
+}
+
+.inv-info h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: white;
+}
+
+.qty {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.equip-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'Inter', sans-serif;
+}
+
+.btn-equip {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn-equip:disabled {
+  background: rgba(100, 116, 139, 0.3);
+  color: #64748b;
+  cursor: not-allowed;
+}
+
+.btn-equip:not(:disabled):hover {
+  background: #2563eb;
+  transform: translateY(-1px);
+}
+
+.btn-unequip {
+  background: rgba(239, 68, 68, 0.8);
+  color: white;
+}
+
+.btn-unequip:hover {
+  background: #dc2626;
+}

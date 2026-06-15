@@ -1,0 +1,16 @@
+/home/silence/.ghcup/ghc/9.4.8/lib/ghc-9.4.8/lib/x86_64-linux-ghc-9.4.8/rts-1.0.2/include/ghcversion.h:
+  hash: 4bc88722407a89d1efbfa9c116cd4017af6ea3ff746643032b96cef62782f5dd
+? /home/silence/Documents/CookieClicker/.stack-work/dist/x86_64-linux/ghc-9.4.8/build/cookie-clicker-exe/autogen/Paths_cookie_clicker.hs
+: hash: ffecd7415f5782a42e121cf3649684bc42f2792455b418c2f8b8beb8748b32ae
+/home/silence/Documents/CookieClicker/.stack-work/dist/x86_64-linux/ghc-9.4.8/build/cookie-clicker-exe/autogen/cabal_macros.h:
+  hash: de4ccce819f3e3c3a55ce7f2bb683e6007c84195fb472c22db4aa40c3cb34fc3
+/home/silence/Documents/CookieClicker/README.md:
+  hash: e8d9226e33a07765d5b18dc81f7524af443f82a756d70734b25f518160a949a2
+/home/silence/Documents/CookieClicker/app/Main.hs:
+  hash: 83bb422c352d45d0c4eb78ff41e53c6c8242a2800a8c3f494f4d84fd160c5c36
+/home/silence/Documents/CookieClicker/cookie-clicker.cabal:
+  hash: 69826cccffbd18eac7a9fb5baab855787f67b8e6e2975534b45d9212a7535c26
+/home/silence/Documents/CookieClicker/package.yaml:
+  hash: 107da73ced3103441004d4c0ecdd8530da9ad49459c895061c4d67280030c0fc
+/usr/include/stdc-predef.h:
+  hash: 8db4f65e62cade8ae4d9b77960ee6aee093255acc1b637e3fb37d79179733b15
