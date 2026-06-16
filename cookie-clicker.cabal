@@ -47,6 +47,7 @@ library
     , time
     , transformers
     , wai
+    , wai-cors
     , warp
   default-language: Haskell2010
 
@@ -75,6 +76,7 @@ executable cookie-clicker-exe
     , time
     , transformers
     , wai
+    , wai-cors
     , warp
   default-language: Haskell2010
 
@@ -106,5 +108,6 @@ test-suite cookie-clicker-test
     , time
     , transformers
     , wai
+    , wai-cors
     , warp
   default-language: Haskell2010
