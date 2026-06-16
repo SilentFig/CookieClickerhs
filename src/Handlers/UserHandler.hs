@@ -33,8 +33,17 @@ deleteUser pool uid = liftIO $ runDb pool $ do
 
 loginUser :: ConnectionPool -> User -> Handler (Entity User)
 loginUser pool creds = do
-  -- Autenticação simplificada
-  mUser <- liftIO $ runDb pool $ selectFirst [UserEmail ==. userEmail creds, UserPasswordHash ==. userPasswordHash creds] []
+  liftIO $ do
+    putStrLn $ "LOGIN EMAIL: " ++ show (userEmail creds)
+    putStrLn $ "LOGIN SENHA: " ++ show (userPasswordHash creds)
+
+  mUser <- liftIO $ runDb pool $
+    selectFirst
+      [ UserEmail ==. userEmail creds
+      , UserPasswordHash ==. userPasswordHash creds
+      ]
+      []
+
   case mUser of
     Nothing -> throwError err401
     Just ent -> return ent
