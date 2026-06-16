@@ -9,6 +9,8 @@ import Handlers.GameHandler
 import Handlers.InventoryHandler
 import Network.Wai (Application)
 import Network.Wai.Middleware.Cors
+import Network.HTTP.Types.Header (hContentType)
+import Network.HTTP.Types.Method
 
 server :: ConnectionPool -> Server CookieClickerAPI
 server pool =
@@ -40,9 +42,12 @@ app pool =
   where
     policy =
       simpleCorsResourcePolicy
-        { corsOrigins = Nothing
-        , corsMethods =
-            ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+        { corsMethods =
+            [ methodGet
+            , methodPost
+            , methodPut
+            , methodDelete
+            ]
         , corsRequestHeaders =
-            ["Content-Type", "Authorization"]
+            [ hContentType ]
         }

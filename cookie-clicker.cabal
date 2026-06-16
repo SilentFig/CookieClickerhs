@@ -36,6 +36,7 @@ library
     , bytestring
     , containers
     , cryptonite
+    , http-types
     , memory
     , monad-logger
     , mtl
@@ -65,6 +66,7 @@ executable cookie-clicker-exe
     , containers
     , cookie-clicker
     , cryptonite
+    , http-types
     , memory
     , monad-logger
     , mtl
@@ -97,6 +99,7 @@ test-suite cookie-clicker-test
     , cryptonite
     , hspec
     , hspec-wai
+    , http-types
     , memory
     , monad-logger
     , mtl
