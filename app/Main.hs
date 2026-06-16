@@ -14,7 +14,7 @@ main = do
   putStrLn "Executando migrations do banco de dados..."
   doMigrations pool
 
-  putStrLn "Semeando Upgrades padrão..."
+  putStrLn "Semeando Upgrades padrao..."
   seedUpgrades pool
 
   mPort <- lookupEnv "PORT"
