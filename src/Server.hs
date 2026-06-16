@@ -35,5 +35,14 @@ server pool =
 
 app :: ConnectionPool -> Application
 app pool =
-  simpleCors $
+  cors (const $ Just policy) $
     serve apiProxy (server pool)
+  where
+    policy =
+      simpleCorsResourcePolicy
+        { corsOrigins = Nothing
+        , corsMethods =
+            ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+        , corsRequestHeaders =
+            ["Content-Type", "Authorization"]
+        }
