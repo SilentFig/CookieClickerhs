@@ -3,14 +3,23 @@ module Main where
 import Network.Wai.Handler.Warp
 import Database
 import Server
+import System.Environment (lookupEnv)
 
 main :: IO ()
 main = do
   putStrLn "Iniciando backend do Cookie Clicker..."
+
   pool <- makePool
+
   putStrLn "Executando migrations do banco de dados..."
   doMigrations pool
+
   putStrLn "Semeando Upgrades padrão..."
   seedUpgrades pool
-  putStrLn "Servidor rodando na porta 8081. Pressione Ctrl+C para encerrar."
-  run 8081 (app pool)
+
+  mPort <- lookupEnv "PORT"
+  let port = maybe 8081 read mPort
+
+  putStrLn $ "Servidor rodando na porta " ++ show port
+
+  run port (app pool)
