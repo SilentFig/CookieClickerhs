@@ -7,6 +7,8 @@ import Handlers.UserHandler
 import Handlers.UpgradeHandler
 import Handlers.GameHandler
 import Handlers.InventoryHandler
+import Network.Wai (Application)
+import Network.Wai.Middleware.Cors
 
 server :: ConnectionPool -> Server CookieClickerAPI
 server pool =
@@ -32,4 +34,6 @@ server pool =
   :<|> getGame pool
 
 app :: ConnectionPool -> Application
-app pool = serve apiProxy (server pool)
+app pool =
+  simpleCors $
+    serve apiProxy (server pool)
