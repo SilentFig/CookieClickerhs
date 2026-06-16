@@ -5,6 +5,7 @@ import { AuthScreen } from './components/AuthScreen';
 import { InventoryPanel } from './components/InventoryPanel';
 import { ProfileMenu } from './components/ProfileMenu';
 import './App.css';
+import { API_URL } from "./config";
 
 interface Upgrade { id: number; name: string; description: string; price: number; cpsBonus: number; cpsMultiplier: number; bitValue: number; }
 interface FloatingText { id: number; x: number; y: number; }
@@ -15,7 +16,7 @@ function calculateTotalCps(inventory: InventoryItem[], upgrades: Upgrade[]): num
   let baseCps = 0, multiplier = 1.0;
   inventory.filter(i => i.equipped).forEach(i => {
     const upg = upgrades.find(u => u.id === i.id);
-    if(upg) { baseCps += upg.cpsBonus * i.quantity; multiplier += upg.cpsMultiplier * i.quantity; }
+    if (upg) { baseCps += upg.cpsBonus * i.quantity; multiplier += upg.cpsMultiplier * i.quantity; }
   });
   return baseCps * multiplier;
 }
@@ -46,13 +47,13 @@ function App() {
   const [activeSkin, setActiveSkin] = useState<number>(0);
   const [maxUnlockedSkin, setMaxUnlockedSkin] = useState<number>(0);
   const [buyQuantity, setBuyQuantity] = useState<number>(1);
-  
+
   useEffect(() => {
-    fetch('/api/upgrades')
+    fetch(`${API_URL}/upgrades`)
       .then(r => r.ok ? r.json() : Promise.reject())
       .then(data => {
-         const formatted = data.map((item: any) => ({ ...item, cpsMultiplier: item.cpsMultiplier || 0 }));
-         setUpgrades(formatted.length > 0 ? formatted : FALLBACK_UPGRADES);
+        const formatted = data.map((item: any) => ({ ...item, cpsMultiplier: item.cpsMultiplier || 0 }));
+        setUpgrades(formatted.length > 0 ? formatted : FALLBACK_UPGRADES);
       }).catch(() => setUpgrades(FALLBACK_UPGRADES));
   }, []);
 
@@ -61,18 +62,18 @@ function App() {
     try {
       const reqBody = { username, email: `${username}@test.com`, passwordHash: "123", cookies: 0, totalCookies: 0, cps: 0, equippedMask: 0, activeSkin: 0, createdAt: new Date().toISOString() };
       if (isRegister) {
-        const createRes = await fetch('/api/users', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(reqBody) });
+        const createRes = await fetch(`${API_URL}/users`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(reqBody) });
         if (!createRes.ok) throw new Error("Usuário já existe. Tente fazer login.");
         const newId = await createRes.json();
-        const getRes = await fetch(`/api/users/${newId}`);
+        const getRes = await fetch(`${API_URL}/users/${newId}`);
         loginUserToState(await getRes.json());
       } else {
-        const res = await fetch('/api/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(reqBody) });
+        const res = await fetch(`${API_URL}/login`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(reqBody) });
         if (!res.ok) throw new Error("Usuário não encontrado.");
         const loginData = await res.json();
         loginUserToState(loginData);
       }
-    } catch(e: any) { setAuthError(e.message); }
+    } catch (e: any) { setAuthError(e.message); }
   };
 
   const loginUserToState = async (userData: any) => {
@@ -80,7 +81,7 @@ function App() {
     setCookies(userData.cookies);
     setTotalCookies(userData.totalCookies || userData.cookies);
     setCps(userData.cps);
-    
+
     let level = 0;
     const pastCookies = userData.totalCookies || userData.cookies;
     if (pastCookies >= 10000000000) level = 8;
@@ -98,20 +99,20 @@ function App() {
     document.body.className = `bg-${savedSkin}`;
 
     try {
-      const invRes = await fetch(`/api/inventory/${userData.id}`);
+      const invRes = await fetch(`${API_URL}/inventory/${userData.id}`);
       const invData = await invRes.json();
       const mergedInventory = upgrades.map(u => {
-         const backendInv = invData.find((dbI:any) => dbI.upgradeId === u.id);
-         return { id: u.id, name: u.name, quantity: backendInv ? backendInv.quantity : 0, equipped: (userData.equippedMask & u.bitValue) === u.bitValue };
+        const backendInv = invData.find((dbI: any) => dbI.upgradeId === u.id);
+        return { id: u.id, name: u.name, quantity: backendInv ? backendInv.quantity : 0, equipped: (userData.equippedMask & u.bitValue) === u.bitValue };
       });
       setInventory(mergedInventory);
     } catch { setInventory(upgrades.map(u => ({ id: u.id, name: u.name, quantity: 0, equipped: false }))); }
   };
 
   const handleDeleteAccount = async () => {
-    if(!user) return;
+    if (!user) return;
     try {
-      await fetch(`/api/users/${user.id}`, { method: 'DELETE' });
+      await fetch(`${API_URL}/users/${user.id}`, { method: 'DELETE' });
       setUser(null); document.body.className = 'bg-0';
     } catch { alert("Erro ao excluir conta."); }
   };
@@ -149,8 +150,8 @@ function App() {
   useEffect(() => {
     if (cps === 0 || !user) return;
     const interval = setInterval(() => {
-       setCookies(c => c + (cps / 10));
-       setTotalCookies(c => c + (cps / 10));
+      setCookies(c => c + (cps / 10));
+      setTotalCookies(c => c + (cps / 10));
     }, 100);
     return () => clearInterval(interval);
   }, [cps, user]);
@@ -159,7 +160,7 @@ function App() {
     const clickPower = 1 + (cps * 0.1);
     setCookies(c => c + clickPower);
     setTotalCookies(c => c + clickPower);
-    if(user) fetch(`/api/click/${user.id}`, { method: 'POST' }).catch(()=>null);
+    if (user) fetch(`${API_URL}/click/${user.id}`, { method: 'POST' }).catch(() => null);
     const newText = { id: Date.now() + Math.random(), x, y };
     setFloatingTexts(prev => [...prev, newText]);
     setTimeout(() => setFloatingTexts(prev => prev.filter(t => t.id !== newText.id)), 1000);
@@ -168,10 +169,10 @@ function App() {
   const handleBuyUpgrade = async (upgradeId: number, qty: number) => {
     const upgrade = upgrades.find(u => u.id === upgradeId);
     if (upgrade && cookies >= upgrade.price * qty) {
-      if(user) {
-         const updatedUser = { ...user, cookies: cookies, totalCookies: totalCookies, activeSkin: activeSkin };
-         await fetch(`/api/users/${user.id}`, { method: 'PUT', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(updatedUser) }).catch(() => null);
-         fetch(`/api/buy-upgrade/${user.id}/${upgradeId}/${qty}`, { method: 'POST' }).catch(()=>null);
+      if (user) {
+        const updatedUser = { ...user, cookies: cookies, totalCookies: totalCookies, activeSkin: activeSkin };
+        await fetch(`${API_URL}/users/${user.id}`, { method: 'PUT', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(updatedUser) }).catch(() => null);
+        fetch(`${API_URL}/buy-upgrade/${user.id}/${upgradeId}/${qty}`, { method: 'POST' }).catch(() => null);
       }
       setCookies(c => c - (upgrade.price * qty));
       setInventory(prev => {
@@ -183,13 +184,13 @@ function App() {
   };
 
   const handleEquip = (upgradeId: number) => {
-    if(equippedCount >= 2) return;
+    if (equippedCount >= 2) return;
     setInventory(prev => {
       const next = prev.map(item => item.id === upgradeId ? { ...item, equipped: true } : item);
       setCps(calculateTotalCps(next, upgrades));
       return next;
     });
-    if(user && user.id !== 1) fetch(`/api/equip-upgrade/${user.id}/${upgradeId}`, { method: 'POST' }).catch(()=>null);
+    if (user && user.id !== 1) fetch(`${API_URL}/equip-upgrade/${user.id}/${upgradeId}`, { method: 'POST' }).catch(() => null);
   };
 
   const handleUnequip = (upgradeId: number) => {
@@ -198,18 +199,18 @@ function App() {
       setCps(calculateTotalCps(next, upgrades));
       return next;
     });
-    if(user && user.id !== 1) fetch(`/api/unequip-upgrade/${user.id}/${upgradeId}`, { method: 'POST' }).catch(()=>null);
+    if (user && user.id !== 1) fetch(`${API_URL}/unequip-upgrade/${user.id}/${upgradeId}`, { method: 'POST' }).catch(() => null);
   };
 
   useEffect(() => {
     if (!user) return;
     const handleBeforeUnload = () => {
       const updatedUser = { ...user, cookies: cookies, totalCookies: totalCookies, activeSkin: activeSkin };
-      fetch(`/api/users/${user.id}`, { 
-         method: 'PUT', 
-         headers: {'Content-Type': 'application/json'},
-         body: JSON.stringify(updatedUser),
-         keepalive: true
+      fetch(`${API_URL}/users/${user.id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(updatedUser),
+        keepalive: true
       }).catch(() => null);
     };
     window.addEventListener('beforeunload', handleBeforeUnload);
@@ -219,13 +220,13 @@ function App() {
   const handleLogout = async () => {
     if (user) {
       const updatedUser = { ...user, cookies: cookies, totalCookies: totalCookies, activeSkin: activeSkin };
-      await fetch(`/api/users/${user.id}`, { 
-         method: 'PUT', 
-         headers: {'Content-Type': 'application/json'},
-         body: JSON.stringify(updatedUser)
+      await fetch(`${API_URL}/users/${user.id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(updatedUser)
       }).catch(() => null);
     }
-    setUser(null); 
+    setUser(null);
     document.body.className = 'bg-0';
   };
 
@@ -235,20 +236,20 @@ function App() {
     <div className="app-container">
       {milestone && <div className="milestone-banner">{milestone}</div>}
       <div className="game-area">
-        <ProfileMenu 
-          username={user.username} 
-          maxUnlockedSkin={maxUnlockedSkin} 
-          currentSkin={activeSkin} 
-          onSkinChange={(s) => { 
-            setActiveSkin(s); 
-            document.body.className = `bg-${s}`; 
-            if(user) {
+        <ProfileMenu
+          username={user.username}
+          maxUnlockedSkin={maxUnlockedSkin}
+          currentSkin={activeSkin}
+          onSkinChange={(s) => {
+            setActiveSkin(s);
+            document.body.className = `bg-${s}`;
+            if (user) {
               const updatedUser = { ...user, activeSkin: s, cookies: cookies, totalCookies: totalCookies };
               setUser(updatedUser);
-              fetch(`/api/users/${user.id}`, { 
-                 method: 'PUT', 
-                 headers: {'Content-Type': 'application/json'},
-                 body: JSON.stringify(updatedUser)
+              fetch(`${API_URL}/users/${user.id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(updatedUser)
               }).catch(() => null);
             }
           }}
@@ -258,7 +259,7 @@ function App() {
         <div className="stats-panel">
           <h2 className="cookie-count">{Math.floor(cookies).toLocaleString('pt-BR')}</h2>
           <div className="cps-rate">{cps.toFixed(1)} cookies por segundo</div>
-          <div className="historical-total" style={{fontSize: '0.9rem', opacity: 0.8, marginTop: '8px'}}>Histórico: {Math.floor(totalCookies).toLocaleString('pt-BR')} 🍪</div>
+          <div className="historical-total" style={{ fontSize: '0.9rem', opacity: 0.8, marginTop: '8px' }}>Histórico: {Math.floor(totalCookies).toLocaleString('pt-BR')} 🍪</div>
         </div>
         <Cookie onClick={handleCookieClick} skinLevel={activeSkin} />
         {floatingTexts.map(text => (
@@ -270,10 +271,10 @@ function App() {
       <div className="side-panel">
         <div className="panel-header"><h2>Mercado</h2></div>
         <div className="buy-multiplier" style={{ display: 'flex', justifyContent: 'center', gap: '10px', padding: '10px', background: 'rgba(0,0,0,0.2)', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
-          <span style={{color: '#94a3b8', display: 'flex', alignItems: 'center', fontWeight: 'bold', marginRight: '5px'}}>Comprar:</span>
-          <button style={{padding: '4px 10px', borderRadius: '4px', cursor: 'pointer', border: buyQuantity === 1 ? '1px solid #fbbf24' : '1px solid transparent', background: buyQuantity === 1 ? 'rgba(251, 191, 36, 0.2)' : 'transparent', color: buyQuantity === 1 ? '#fbbf24' : '#94a3b8'}} onClick={() => setBuyQuantity(1)}>1x</button>
-          <button style={{padding: '4px 10px', borderRadius: '4px', cursor: 'pointer', border: buyQuantity === 10 ? '1px solid #fbbf24' : '1px solid transparent', background: buyQuantity === 10 ? 'rgba(251, 191, 36, 0.2)' : 'transparent', color: buyQuantity === 10 ? '#fbbf24' : '#94a3b8'}} onClick={() => setBuyQuantity(10)}>10x</button>
-          <button style={{padding: '4px 10px', borderRadius: '4px', cursor: 'pointer', border: buyQuantity === 100 ? '1px solid #fbbf24' : '1px solid transparent', background: buyQuantity === 100 ? 'rgba(251, 191, 36, 0.2)' : 'transparent', color: buyQuantity === 100 ? '#fbbf24' : '#94a3b8'}} onClick={() => setBuyQuantity(100)}>100x</button>
+          <span style={{ color: '#94a3b8', display: 'flex', alignItems: 'center', fontWeight: 'bold', marginRight: '5px' }}>Comprar:</span>
+          <button style={{ padding: '4px 10px', borderRadius: '4px', cursor: 'pointer', border: buyQuantity === 1 ? '1px solid #fbbf24' : '1px solid transparent', background: buyQuantity === 1 ? 'rgba(251, 191, 36, 0.2)' : 'transparent', color: buyQuantity === 1 ? '#fbbf24' : '#94a3b8' }} onClick={() => setBuyQuantity(1)}>1x</button>
+          <button style={{ padding: '4px 10px', borderRadius: '4px', cursor: 'pointer', border: buyQuantity === 10 ? '1px solid #fbbf24' : '1px solid transparent', background: buyQuantity === 10 ? 'rgba(251, 191, 36, 0.2)' : 'transparent', color: buyQuantity === 10 ? '#fbbf24' : '#94a3b8' }} onClick={() => setBuyQuantity(10)}>10x</button>
+          <button style={{ padding: '4px 10px', borderRadius: '4px', cursor: 'pointer', border: buyQuantity === 100 ? '1px solid #fbbf24' : '1px solid transparent', background: buyQuantity === 100 ? 'rgba(251, 191, 36, 0.2)' : 'transparent', color: buyQuantity === 100 ? '#fbbf24' : '#94a3b8' }} onClick={() => setBuyQuantity(100)}>100x</button>
         </div>
         <div className="upgrades-list"><UpgradePanel upgrades={upgrades} cookies={cookies} buyQuantity={buyQuantity} onBuy={handleBuyUpgrade} /></div>
         <InventoryPanel items={inventory} onEquip={handleEquip} onUnequip={handleUnequip} equippedCount={equippedCount} />

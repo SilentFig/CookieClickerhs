@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/config.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/AuthScreen.tsx","./src/components/Cookie.tsx","./src/components/InventoryPanel.tsx","./src/components/ProfileMenu.tsx","./src/components/UpgradePanel.tsx"],"version":"5.9.3"}

@@ -219,7 +219,7 @@
 /home/silence/Documents/CookieClicker/.stack-work/dist/x86_64-linux/ghc-9.4.8/build/autogen/cabal_macros.h:
   hash: 0d54648d333891bc953601525cc32728bd384b6c241fc7002860ee0fe2b8283b
 /home/silence/Documents/CookieClicker/README.md:
-  hash: e8d9226e33a07765d5b18dc81f7524af443f82a756d70734b25f518160a949a2
+  hash: 05231e40df15bafef3a63d6fefd4887673d07dc45a9d764e2a0dd4c93bde04ea
 /home/silence/Documents/CookieClicker/cookie-clicker.cabal:
   hash: 69826cccffbd18eac7a9fb5baab855787f67b8e6e2975534b45d9212a7535c26
 /home/silence/Documents/CookieClicker/package.yaml:
@@ -229,7 +229,7 @@
 /home/silence/Documents/CookieClicker/src/Bitmask.hs:
   hash: 526174bc35355684da349d5cf3be46592e39743d7a659915fa31fece98d36e9c
 /home/silence/Documents/CookieClicker/src/Database.hs:
-  hash: ee71357537029d7d455287b77e7a2943ccbe38bd3f8e2240934e757d11b79ffc
+  hash: 99e1d796e6ffa0aaa82b37dd48eba98d4a6828fce59330e2d9c0f8074716b816
 /home/silence/Documents/CookieClicker/src/GameLogic.hs:
   hash: d73615fe938d537d6e4203ff8a56dd14da1775da58bb51edd073b122cddaba87
 /home/silence/Documents/CookieClicker/src/Handlers/GameHandler.hs:
