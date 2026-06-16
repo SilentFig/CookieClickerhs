@@ -57,10 +57,14 @@ function App() {
       }).catch(() => setUpgrades(FALLBACK_UPGRADES));
   }, []);
 
-  const handleLogin = async (username: string, isRegister: boolean) => {
+  const handleLogin = async (
+    username: string,
+    password: string,
+    isRegister: boolean
+  ) => {
     setAuthError(undefined);
     try {
-      const reqBody = { username, email: `${username}@test.com`, passwordHash: "123", cookies: 0, totalCookies: 0, cps: 0, equippedMask: 0, activeSkin: 0, createdAt: new Date().toISOString() };
+      const reqBody = { username, email: `${username}@test.com`, passwordHash: password, cookies: 0, totalCookies: 0, cps: 0, equippedMask: 0, activeSkin: 0, createdAt: new Date().toISOString() };
       if (isRegister) {
         const createRes = await fetch(`${API_URL}/users`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(reqBody) });
         if (!createRes.ok) throw new Error("Usuário já existe. Tente fazer login.");
